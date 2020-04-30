@@ -1,0 +1,10 @@
+["call", ["fun*", ["alpha"],
+  ["seq*",
+    ["grab", "x", "alpha"],
+    [
+      ["let", "multtwo", "=", ["fun*", ["b"], ["call", "*", 2, "b"]]],
+      ["let", "x", "=", 100],
+      ["call", "multtwo", "x"]]
+
+  ]
+], 5]

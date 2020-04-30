@@ -1,0 +1,5 @@
+["grab", "abort",
+  ["seq*",
+    ["stop", ["call", "abort", ["stop", ["call", "^", 5, 5]]]],
+    ["call", "snort"],
+    [20]]]
